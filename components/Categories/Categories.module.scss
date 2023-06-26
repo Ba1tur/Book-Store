@@ -1,0 +1,21 @@
+.categories_section {
+  width: 100%;
+  padding-top: 220px;
+  &__header {
+    display: flex;
+	 align-items: center;
+	 padding-bottom: 75px;
+	 gap: 10px;
+    h1 {
+      color: var(--gray-800, #3d3c3c);
+      font-size: 36px;
+      font-family: "Unica One";
+    }
+  }
+  &__block{
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+	gap: 60px;
+  }
+}

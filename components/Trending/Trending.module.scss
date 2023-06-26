@@ -1,0 +1,35 @@
+.trending_container {
+  width: 100%;
+  padding-top: 220px;
+  h1 {
+    color: var(--gray-800, #3d3c3c);
+    text-align: center;
+    font-size: 36px;
+    font-family: "Unica One";
+    padding-bottom: 13px;
+  }
+  .trengind_container__title {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 6px;
+	 padding-bottom: 30px;
+    p {
+      color: var(--gray-600, #676767);
+      text-align: center;
+      font-size: 14px;
+      font-family: "Syne";
+    }
+  }
+  .trending_container__block {
+    width: 100%;
+    height: 410px;
+
+	 display: flex;
+	 justify-content: center;
+	 align-items: center;
+	 gap: 25px;
+    border-radius: 20px;
+    border: 2px dashed var(--gray-800, #3d3c3c);
+  }
+}
