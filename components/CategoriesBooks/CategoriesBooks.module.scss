@@ -1,5 +1,10 @@
 .categories_books_section{
 	width: 100%;
-	
 	padding-top: 230px;
+	&__block{
+		width: 100%;
+		display: flex;
+		gap: 70px;
+		flex-wrap: wrap;
+	}
 }

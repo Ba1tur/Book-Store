@@ -1,0 +1,76 @@
+.basket {
+  width: 100%;
+  padding: 17px 13px 0 10px;
+  h3 {
+    color: #3d3c3c;
+    font-size: 16px;
+    font-family: "Syne", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    mark {
+      color: #3ab8eb;
+      background: none;
+    }
+  }
+  &__cards {
+    width: 100%;
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+    &__card {
+      width: 100%;
+      height: 200px;
+      padding: 26px 23px 25px 24px;
+      display: flex;
+      gap: 31px;
+      border-radius: 20px;
+      border: 2px dashed var(--gray-600, #676767);
+      &__content {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        &__header {
+          display: flex;
+          justify-content: space-between;
+          h4 {
+            color: var(--gray-600, #676767);
+            font-size: 16px;
+            padding-top: 15px;
+            font-family: "Syne", sans-serif;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+            span {
+              color: var(--gray-600, #676767);
+              font-size: 12px;
+              font-family: "Syne", sans-serif;
+              font-style: normal;
+              font-weight: 400;
+              line-height: normal;
+            }
+          }
+          p {
+            color: var(--orange-500, #f9784b);
+            text-align: right;
+            font-size: 24px;
+            font-family: "Syne", sans-serif;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+          }
+        }
+        &__footer {
+          width: 100%;
+          display: flex;
+          justify-content: space-between;
+          img{
+            cursor: pointer;
+          }
+        }
+      }
+    }
+  }
+}

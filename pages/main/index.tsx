@@ -11,6 +11,7 @@ const Main = () => {
 			<Trending/>
 			<Categories/>
 			<CategoriesBooks/>
+			<CategoriesBooks/>
 		</>
 	);
 };

@@ -14,10 +14,6 @@ const Trending: React.FC = () => {
 			</div>
 			<main className={s.trending_container__block}>
 				<BooksCardImg/>
-				<BooksCardImg/>
-				<BooksCardImg/>
-				<BooksCardImg/>
-				<BooksCardImg/>
 			</main>
 		</div>
     </section>

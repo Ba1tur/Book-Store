@@ -1,0 +1,131 @@
+.products_details_section {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 80px;
+  &__img {
+    padding-top: 24px;
+    img {
+      border-radius: 10px;
+      box-shadow: 10px 12px 10px -6px rgba(61, 60, 60, 0.36);
+    }
+  }
+  &__about {
+    max-width: 530px;
+    width: 100%;
+    &__header {
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+      h1 {
+        color: var(--gray-800, #3d3c3c);
+        font-size: 36px;
+        font-family: "Unica One", sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+      }
+      button {
+        width: 55px;
+        height: 45px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 20px;
+        border: 2px solid var(--gray-800, #3d3c3c);
+        background: var(--white, #fff);
+      }
+    }
+    &__name {
+      width: 100%;
+      height: 63px;
+      margin-top: 20px;
+      border-radius: 20px;
+      border: 2px dashed var(--gray-800, #3d3c3c);
+      background: var(--white, #fff);
+      padding: 21px 0 0 26px;
+      box-shadow: 9px 10px 0px 0 #676767;
+      color: var(--gray-600, #676767);
+      font-size: 16px;
+      font-family: "Syne", sans-serif;
+      font-style: normal;
+      font-weight: 500;
+      line-height: normal;
+    }
+    &__description {
+      width: 100%;
+      height: 172px;
+      border-radius: 20px;
+      margin-top: 21px;
+      border: 2px dashed var(--gray-800, #3d3c3c);
+      box-shadow: 9px 10px 0px 0 #676767;
+      background: var(--white, #fff);
+      overflow: hidden;
+      padding: 35px 80px 0 26px;
+      color: var(--gray-600, #676767);
+      font-size: 14px;
+      font-family: "Syne", sans-serif;
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
+    }
+    &__footer {
+      width: 100%;
+      margin-top: 50px;
+      &__price_block {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        p {
+          color: var(--orange-500, #f9784b);
+          font-size: 36px;
+          font-family: "Syne", sans-serif;
+          font-style: normal;
+          font-weight: 400;
+          line-height: normal;
+        }
+      }
+      &__buttons {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        margin-top: 23px;
+        button:nth-child(1) {
+          max-width: 255px;
+          width: 100%;
+          height: 46px;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          border-radius: 20px;
+          border: 2px solid var(--gray-800, #3d3c3c);
+          background: var(--yellow-500, #fdbf0f);
+        }
+        button:nth-child(2) {
+          max-width: 255px;
+          width: 100%;
+          height: 46px;
+          color: var(--gray-800, #3d3c3c);
+          font-size: 20px;
+          font-family: "Syne", sans-serif;
+          font-style: normal;
+          font-weight: 400;
+          line-height: normal;
+          border-radius: 20px;
+          border: 2px solid var(--gray-800, #3d3c3c);
+          background: var(--yellow-500, #f9784b);
+        }
+      }
+    }
+  }
+}
+.products_details__footer {
+  width: 100%;
+  margin-top: 162px;
+  &__block {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 70px;
+  }
+}
